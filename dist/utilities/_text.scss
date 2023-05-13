@@ -1,0 +1,36 @@
+@use "../themes/fonts";
+
+@each $name, $size in fonts.$font-sizes {
+  .text-#{$name} {
+    font-size: $size !important;
+  }
+}
+
+.text-bold {
+  font-weight: 600;
+}
+
+.text-ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-lowercase {
+  text-transform: lowercase;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+$text-alignments: left, center, right;
+@each $alignment in $text-alignments {
+  .text-#{$alignment} {
+    text-align: $alignment;
+  }
+}
