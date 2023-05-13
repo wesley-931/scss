@@ -1,0 +1,21 @@
+{
+  "name": "@wesley931/scss",
+  "version": "0.3.0",
+  "description": "A package that hold some SCSS mixins, classes and other useful styling for getting projects up to speed.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wesley-931/scss.git"
+  },
+  "keywords": [
+    "SCSS"
+  ],
+  "author": "Wesley931",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wesley-931/scss/issues"
+  },
+  "homepage": "https://github.com/wesley-931/scss#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}
