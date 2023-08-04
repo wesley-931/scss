@@ -4,6 +4,8 @@
 
 This package allows you to have some basic mixins, classes and other useful styling items to get up to speed with creating your site/application.
 
+It also includes a reset file (_reset.scss) to remove some of the default browser styling
+
 ## Installation
 
 Install via npm:
