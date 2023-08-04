@@ -1,6 +1,6 @@
 {
   "name": "@wesley931/scss",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "description": "A package that hold some SCSS mixins, classes and other useful styling for getting projects up to speed.",
   "repository": {
     "type": "git",
