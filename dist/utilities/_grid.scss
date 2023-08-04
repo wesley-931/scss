@@ -6,7 +6,7 @@ $grid-spacer: v.$spacer !default;
 
 @for $i from 0 to 32 {
   .gap-#{$i} {
-    gap: $i * $grid-spacer;
+    gap: $i * $grid-spacer !important;
   }
 }
 

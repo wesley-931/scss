@@ -34,3 +34,10 @@ $text-alignments: left, center, right;
     text-align: $alignment;
   }
 }
+
+$text-spacing-spacer: 0.125px;
+@for $i from 0 to 32 {
+  .text-spacing-#{$i} {
+    letter-spacing: $i * $text-spacing-spacer;
+  }
+}

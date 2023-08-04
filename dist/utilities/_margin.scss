@@ -5,11 +5,17 @@ $margin-spacer: v.$spacer !default;
 .ml-auto {
   margin-left: auto !important;
 }
+
 .mr-auto {
   margin-right: auto !important;
 }
 
-@for $i from 0 to 32 {
+.mx-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+@for $i from 0 to 50 {
   .m-#{$i} {
     margin: $i * $margin-spacer !important;
   }
